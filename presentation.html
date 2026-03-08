@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cybersécurité</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background: linear-gradient(135deg,#e0c3fc,#8ec5fc,#f9f9f9);
+color:#333;
+line-height:1.7;
+}
+
+/* HEADER */
+
+header{
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:42px;
+font-weight:600;
+color:#444;
+letter-spacing:1px;
+}
+
+/* CONTAINER */
+
+.container{
+width:85%;
+max-width:1000px;
+margin:auto;
+}
+
+/* SECTIONS */
+
+.section{
+background:white;
+padding:35px;
+margin-bottom:30px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.section:hover{
+transform:translateY(-5px);
+}
+
+/* TITLES */
+
+h2{
+margin-bottom:10px;
+color:#5a5a5a;
+}
+
+h3{
+margin-top:15px;
+color:#6c6c6c;
+}
+
+/* TEXT */
+
+p{
+margin-top:10px;
+}
+
+/* IMAGES */
+
+img{
+width:100%;
+border-radius:12px;
+margin-top:20px;
+}
+
+/* LIST */
+
+ul{
+margin-left:20px;
+margin-top:10px;
+}
+
+li{
+margin-bottom:6px;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+overflow:hidden;
+border-radius:10px;
+}
+
+th{
+background:#e0c3fc;
+padding:12px;
+}
+
+td{
+padding:12px;
+text-align:center;
+background:#f7f7f7;
+}
+
+tr:nth-child(even) td{
+background:#ececec;
+}
+
+/* BUTTON */
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:12px 22px;
+background:#8ec5fc;
+color:white;
+text-decoration:none;
+border-radius:8px;
+transition:0.3s;
+}
+
+.button:hover{
+background:#6fa8ff;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:40px;
+padding:20px;
+font-size:14px;
+color:#777;
+}
+
+/* FLOATING BACKGROUND SHAPES */
+
+.circle{
+position:fixed;
+border-radius:50%;
+opacity:0.25;
+animation:float 12s infinite ease-in-out;
+z-index:-1;
+}
+
+.circle1{
+width:200px;
+height:200px;
+background:#e0c3fc;
+top:10%;
+left:5%;
+}
+
+.circle2{
+width:150px;
+height:150px;
+background:#8ec5fc;
+bottom:10%;
+right:5%;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-30px);}
+100%{transform:translateY(0);}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
+
+<header>
+<h1>La Cybersécurité et le Piratage Informatique</h1>
+</header>
+
+<div class="container">
+
+<div class="section">
+
+<img src="https://images.unsplash.com/photo-1660644807804-ffacfd7a4137?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+<h2>Qu'est-ce que la Cybersécurité ?</h2>
+
+<p>
+La cybersécurité désigne l'ensemble des pratiques et technologies utilisées pour protéger les systèmes informatiques, les réseaux et les données contre les cyberattaques.
+</p>
+
+</div>
+
+<div class="section">
+
+<img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b">
+
+<h2>Qu'est-ce que le Piratage Informatique ?</h2>
+
+<p>
+Le piratage informatique correspond à l'accès non autorisé à un système informatique. Certains hackers travaillent pour améliorer la sécurité tandis que d'autres exploitent les failles pour voler des informations.
+</p>
+
+<h3>Types de Hackers</h3>
+
+<ul>
+<li><strong>White Hat :</strong> hackers éthiques qui protègent les systèmes.</li>
+<li><strong>Grey Hat :</strong> hackers intermédiaires.</li>
+<li><strong>Black Hat :</strong> hackers malveillants.</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Comparaison des Hackers</h2>
+
+<table>
+
+<tr>
+<th>Type</th>
+<th>Objectif</th>
+<th>Légalité</th>
+</tr>
+
+<tr>
+<td>White Hat</td>
+<td>Améliorer la sécurité</td>
+<td>Légal</td>
+</tr>
+
+<tr>
+<td>Grey Hat</td>
+<td>Trouver des failles</td>
+<td>Variable</td>
+</tr>
+
+<tr>
+<td>Black Hat</td>
+<td>Vol de données</td>
+<td>Illégal</td>
+</tr>
+
+</table>
+
+<a class="button" href="https://www.cybermalveillance.gouv.fr/" target="_blank">
+En savoir plus
+</a>
+
+</div>
+
+<div class="section">
+
+<h2>Conclusion</h2>
+
+<p>
+Comprendre les cybermenaces permet de mieux protéger les données et les systèmes informatiques. La cybersécurité est devenue un enjeu majeur dans le monde numérique actuel.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+Projet éducatif — Cybersécurité
+</footer>
+
+</body>
+
+</html>
